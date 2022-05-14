@@ -3,7 +3,7 @@ import React from "react";
 const PriceBox = ({data}) => {
   return (
     <div>
-      <div className="w-full bg-white rounded-md shadow-xl p-5">
+      <div className="w-full bg-white rounded-md shadow-xl mt-4 p-5">
         <div className="flex items-center justify-between">
           <span className="text-sm font-bold">
             ارزش پرتفوی پانصد هزار تومانی

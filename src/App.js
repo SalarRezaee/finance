@@ -16,7 +16,7 @@ const App = () => {
         <Sidebar open={open} handleChange={handleChange} />
         <div className="flex flex-col w-full">
           <Navbar open={open} handleChange={handleChange} />
-          <div className="w-full">
+          <div className="w-full container mx-auto px-2">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/pie-chart" element={<PieChart />} />

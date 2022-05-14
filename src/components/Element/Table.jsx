@@ -8,25 +8,25 @@ const columns = [
     headerName: "سود خالص",
     sortable: true,
     width: 160,
-    cellClassName : 'text-center',
-    align: "right",
-    headerAlign: "right",
+    cellClassName: "text-center",
+    align: "center",
+    headerAlign: "center",
   },
   {
     field: "mc",
     headerName: "ارزش بازار",
     sortable: true,
     width: 180,
-    align: "right",
-    headerAlign: "right",
+    align: "center",
+    headerAlign: "center",
   },
   {
     field: "longTermInvestment",
     headerName: "مقدار سرمایه گذاری بلند مدت",
     width: 200,
     sortable: true,
-    align: "right",
-    headerAlign: "right",
+    align: "center",
+    headerAlign: "center",
   },
 
   {
@@ -34,32 +34,32 @@ const columns = [
     headerName: "ارزش خالص دارایی",
     width: 150,
     editable: true,
-    align: "right",
-    headerAlign: "right",
+    align: "center",
+    headerAlign: "center",
   },
   {
     field: "pnav",
     headerName: "نسبت قیمت به ارزش خالص دارایی",
     width: 250,
     editable: true,
-    cellClassName : 'center',
-    align: "right",
-    headerAlign: "right",
+    cellClassName: "center",
+    align: "center",
+    headerAlign: "center",
   },
   {
     field: "nemad",
     headerName: "نام نماد",
     width: 80,
     editable: true,
-    align: "right",
-    headerAlign: "right",
+    align: "center",
+    headerAlign: "center",
   },
   {
     field: "id",
     headerName: "ID",
     width: 40,
-    align: "right",
-    headerAlign: "right",
+    align: "center",
+    headerAlign: "center",
   },
 ];
 
@@ -70,8 +70,8 @@ export default function DataGridDemo() {
     setRows(res);
   }, []);
   return (
-    <div style={{ display: "flex", height: "400px", textAlign: "right" }}>
-      <div style={{ flexGrow: 1 }} dir="ltr">
+    <div style={{ display: "flex", height: "400px", direction: "ltr" }}>
+      <div style={{ flexGrow: 1 }}>
         <h2 className="font-bold text-lg my-7">جدول سهام های استانی</h2>
         <DataGrid
           sx={{

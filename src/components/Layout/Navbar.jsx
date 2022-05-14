@@ -2,7 +2,7 @@ import { RiMenu3Fill, RiNotification2Line } from "react-icons/ri";
 
 const Navbar = ({ open, handleChange }) => {
   return (
-    <div className="flex w-full bg-black text-white h-12 py-3 px-8">
+    <div className="flex w-full bg-black text-white h-12 py-2 px-8">
       <div className="w-full flex items-center justify-between">
         {!open && (
           <div
