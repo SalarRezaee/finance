@@ -11,3 +11,13 @@
 body {
   direction: "rtl";
 }
+
+
+.center { 
+  text-align: center;
+}
+
+.MuiDataGrid-renderingZone, .MuiDataGrid-root .MuiDataGrid-row {
+  width: 100% !important;
+  text-align: right !important;
+}

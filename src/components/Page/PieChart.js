@@ -27,6 +27,7 @@ function PieChart() {
               options: {
                 chart: {
                   width: 320,
+                  height : 500
                 },
                 legend: {
                   position: "bottom",

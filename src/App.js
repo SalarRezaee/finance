@@ -12,11 +12,11 @@ const App = () => {
 
   return (
     <div>
-      <div className="flex h-screen overflow-x-hidden">
+      <div className="flex w-full h-full">
         <Sidebar open={open} handleChange={handleChange} />
         <div className="flex flex-col w-full">
           <Navbar open={open} handleChange={handleChange} />
-          <div className="container mx-auto px-2 my-8">
+          <div className="w-full">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/pie-chart" element={<PieChart />} />
